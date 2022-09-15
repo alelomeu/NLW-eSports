@@ -1,0 +1,138 @@
+* { /*essa parte eu vou usar para ressetar os valores padroes do navegador */
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url(./assets/bg.jpg); /*esse coloca uma imagem no meu hmtl*/
+    background-position: top center; /*esse coloca a minha imagem topo e centralizada*/
+    background-size: 100% auto; /*esse é o tamanho da minha imagem = 100% siginifica o tamanho total da tela,, se eu aumentar a tela a imagem a tela*/
+    background-repeat: no-repeat; /*esse é para não repetir*/
+    background-color: #121214; /*esse é uma cor de fundo*/
+    margin-bottom: 44px;
+
+}
+
+body *{
+    font-family: 'Inter', sans-serif; /*esse é para escolher a font que eu importei preveamente do google*/
+    line-height: 160%; /*esse é o tamnho da linha*/
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header div {
+    margin-top: 32px;
+    width: 120px;
+    height: 120px;
+    background-image: linear-gradient(90deg, #9572FC, #43E7AD, #E2D45C);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div img {
+   
+    width: 110px;
+    border-radius: 50%;
+}
+
+main { 
+    max-width: 580px; /* esse é o maximo que e meu main vai ter*/
+    width: 90%; /* caso o minha tela tenha menos de 580px o meu main vai ter 90% do tamanho */
+    margin: 32px auto; /* esse deixa a minha margem sempre igual para os dois lados*/
+
+    display: grid; /*deixa eu usar o gap e deixar as caixa em colunas*/
+    gap: 24px; /* esse é o espaço entre ele (só funciona com o display flex ou inline) */    
+}
+
+section {
+    color: white; /* esse é a cor da fonte*/
+    background-image: linear-gradient(90deg, #9572FC, #43E7AD, #E2D45C);
+    border-radius: 10px;
+    padding-top: 4px;
+    
+}
+
+section div {
+    background-color: #2A2634;
+    padding: 32px; /* esse é o espaço em volta dos elementos*/
+    padding-top: 24px; /*esse é o padding da parte de cima*/
+    border-radius: 8px;
+   
+}
+section h2 {  
+    letter-spacing: -0.47px; /* esse é o espaço entre as letras*/
+}
+
+section p{
+    letter-spacing: -0.18px;
+    color: #A1A1AA;
+
+}
+
+ul {
+    list-style: none;
+}
+
+section ul {
+    display: flex; /* o display tem haver com a disponibilização das caixas no html */
+    flex: wrap; /* ele faz com que os elementos vão para baixo*/
+    gap: 16px;
+    margin-top: 24px; /* esse é a margem superior*/
+}
+
+/* Tipos de display:
+
+block: ele bloqueia uma linha inteira então ele deixa uma caixa em baixo da outra
+inline: deixa os elementos em link
+flex: ele modifica o dlisplay dentro das caixas
+*/
+
+.game-list img {
+    width: 90px; /*lagura (a altura geralmente é automatica) */
+    border-radius: 8px; /*esse é o arredondamento das bordas*/
+}
+
+.channel-list img {
+    width: 70px;
+    border-radius: 50%; /*esse é o arredondamento das para deixar uma bolinha*/
+    border: 1px, solid #443e54
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header div {
+    margin-top: 32px;
+    width: 120px;
+    height: 120px;
+    background-image: linear-gradient(90deg, #9572FC, #43E7AD, #E2D45C);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div img {
+   
+    width: 110px;
+    border-radius: 50%;
+
+
+
+    
+}
+
+
+
